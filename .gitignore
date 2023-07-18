@@ -1,1 +1,7 @@
 .DS_Store
+container/db/data/database/failed_jobs.ibd
+container/db/data/database/migrations.ibd
+container/db/data/database/password_reset_tokens.ibd
+container/db/data/database/personal_access_tokens.ibd
+container/db/data/database/products.ibd
+container/db/data/database/users.ibd
