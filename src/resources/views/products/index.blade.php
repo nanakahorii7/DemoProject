@@ -7,7 +7,7 @@
             <h2>Laravel 10 CRUD Example from scratch</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
+            <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Article</a>
         </div>
     </div>
 </div>
