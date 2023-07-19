@@ -48,7 +48,7 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Product $product): View
+    public function show(Product $bug): View
     {
         return view('products.show',compact('product'));
     }
