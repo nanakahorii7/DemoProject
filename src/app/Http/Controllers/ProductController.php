@@ -42,7 +42,7 @@ class ProductController extends Controller
         Product::create($request->all());
          
         return redirect()->route('products.index')
-                        ->with('success','新しい投稿が作成されました！');
+                        ->with('success','Product created successfully');
     }
 
     /**
