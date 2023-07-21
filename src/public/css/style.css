@@ -5,3 +5,7 @@
 .detail-page .pull-right {
     text-align: right;
 }
+
+.container {
+    margin-top: 30px;
+}
