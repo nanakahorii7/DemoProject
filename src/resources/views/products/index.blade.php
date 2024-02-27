@@ -22,6 +22,7 @@
     <tr>
         <th>No</th>
         <th>Name</th>
+        <th>Furigana</th>
         <th>Details</th>
         <th width="280px">Action</th>
     </tr>
