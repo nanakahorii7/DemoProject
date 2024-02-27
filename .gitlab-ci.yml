@@ -16,6 +16,13 @@
 # This specific template is located at:
 # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
 
+run_tests:
+  image: nginx:1.25.3
+  before_script:
+    - apt-get update && apt-get install make
+  script:
+    - make test
+
 stages:          # List of stages for jobs, and their order of execution
   - build
   - test
